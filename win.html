@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tax Management System</title>
+    <link rel="stylesheet" href="win.css" />
+  </head>
+  <body>
+    <header>
+      <h1><marquee>Tax Management System</marquee></h1>
+      <nav>
+        <ul>
+          <li><a href="home.html"><b><button type="onclick">Home</button></b></a></li>
+          <li><a href="about.html"><b><button type="onclick">About us</button></b></a></li>
+          <li><a href="services.html"><b>Services</b></a></li>
+          <li><a href="contact.html"><b>Contact us</b></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2><b>Calculate Taxes</b></h2>
+        <form>
+          <div>
+            <label for="income"><b>Income:</b></label>
+            <input type="number" id="income" name="income" required />
+          </div>
+          <div>
+            <label for="tax-rate"><b>Rate:</b></label>
+            <input type="number" id="tax-rate" name="taxRate" required />
+          </div>
+          <div>
+            <button type="submit"><b>Calculate</b></button>
+          </div>
+        </form>
+        <div id="result"></div>
+      </section>
+    </main>
+    <footer>
+     <center><p>&copy; 2024 Tax Management System</p></center>
+    </footer>
+    <script src="javascript.js"></script>
+  </body>
+</html>
